@@ -3,4 +3,5 @@ Console.WriteLine("Нас зовут Телятникова Е.П. и Злама
 Console.WriteLine(DateTime.Now);
 Console.Write("Введите имя: ");
 string name = Console.ReadLine();
-Console.WriteLine($"Привет, {name}");
+Console.WriteLine($"Привет, {name}!");
+Console.WriteLine(DateTime.Now.DayOfWeek);
